@@ -166,13 +166,13 @@ class Main:
                 "threads": psutil.cpu_count(logical=True),
                 "usage": cpu_usage_str  # "xx.xx%"格式的字符串
             },
-            "env": {
-                "erispulse": version('ErisPulse'),
-                "python": platform.python_version()
-            },
             "disk": {
                 "total": f"{disk_total}GB",
                 "used": f"{disk_used}GB",
                 "usage": disk_usage_str  # "xx.xx%"格式的字符串
+            },
+            "env": {
+                "erispulse": version('ErisPulse'),
+                "python": platform.python_version()
             }
         }
