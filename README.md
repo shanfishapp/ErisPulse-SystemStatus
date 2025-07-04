@@ -57,3 +57,9 @@ status = sdk.SystemStatus.get()
 | **disk.total**   | `int`      | 磁盘总容量(GB)        |
 | **disk.used**    | `int`      | 已用磁盘空间(GB)      |
 | **disk.usage**   | `str`      | 磁盘使用率(%)         |
+
+
+## 参考链接
+
+- [ErisPulse 主库](https://github.com/ErisPulse/ErisPulse/)  
+- [ErisPulse 模块源](https://github.com/ErisPulse/ErisPulse-ModuleRepo)

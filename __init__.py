@@ -4,7 +4,7 @@ moduleInfo = {
         "version": "1.0.1",
         "description": "获取系统内存、CPU、硬盘占用",
         "author": "ShanFish",
-        "homepage": "https://github.com/shanfishapp/SystemStatus",
+        "homepage": "https://github.com/shanfishapp/ErisPulse-SystemStatus",
         "license": "MIT",
     },
     "dependencies": {
